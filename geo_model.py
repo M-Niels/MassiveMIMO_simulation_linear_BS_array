@@ -277,7 +277,7 @@ for a in range(len(y)):
 title = './result plots/' + '(' + datetime.datetime.now().strftime("%Y-%m-%d_%H-%M") + ')-geo_model--M=' + str(M) + '_S=' + str(S) + '_dM=' + str(dM) + '_K=' + str(1) + '_resolution=' + str(resolution) + comment + '.html '
 UE_x = int(len(ampl) / 2)
 UE_y = int(len(ampl[0]) / 2)
-grootte_vars, grootte_gem, diepte_vars, diepte_gem = functions.plotter(ampl, title, header, resolution, S, M,
-                                                                       x_setup, y_setup, UE_x, UE_y, x, y, wH,
-                                                                       all_in=True)
+size_vars, size_gem, height_vars, height_gem = functions.plotter(ampl, title, header, resolution, S, M,
+                                                                 x_setup, y_setup, UE_x, UE_y, x, y, wH,
+                                                                 all_in=True)
 # np.savetxt("8_500_400_0.1.csv", ampl, delimiter=',')
