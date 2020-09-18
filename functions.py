@@ -125,6 +125,7 @@ def plotter(ampl, file_name, fig_header, resolution, S, M, x_setup, y_setup, UE_
         '''angular pwr'''
         ang_pwr = ad.weighted_power(S, M, x_setup, y_setup, 16, plotter='plotly')
 
+        """plotting"""
         fig = make_subplots(rows=2, cols=4, column_widths=[250, 250, 250, 850],
                             specs=[[{"colspan": 3}, None, None, {"rowspan": 2}],
                                    [{"type": "polar"}, {"type": "Barpolar"}, {"type": "polar"}, None]])
