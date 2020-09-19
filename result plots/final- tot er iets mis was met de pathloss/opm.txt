@@ -1,0 +1,69 @@
+20/6
+17u34: verkeerde pathloss (+ ipv *)
+23/6 
+13u50: golffronten loodrecht op richting van pwr
+15u25: groter gebied (zelfde res)
+15u36: idem, met min/max om +/- hetz te hebben als 13u50
+24/6
+16u40: groot gebied met M>S => pwr rond scatterers, maar niet rond allemaal? (slechte vgl met Bessel en route random fase (tss 0 en 4pi, dus boeini peisk) (random opstelling)
+17u40: groot gebied met M>S => pwr rond scatterers, bijna rond allemaal? (slechte vgl met Bessel)
+16u34: (verplaatst naar map van brolplots tot 23/6) groot gebied met M>S => pwr rond scatterers (ontdekking van foute plot manier)
+20u21: groot gebied met M<<S => pwr rond scatterers (slechte vgl met Bessel)
+21u15: groot gebied met M<<S => pwr rond scatterers, bijna rond allemaal? (slechte vgl met Bessel)
+22u15: res:0.1; M>S onrustwekkende lijnen. scatterers behandelen als perfecte reflectoren geeft een beter resultaat dus (slechte vgl met Bessel)
+25/6
+8u59: M<S lijkt er weeral wat meer op, maar eerder een honingraam dan een roos (slechte vgl met Bessel)
+26/6
+13u59: M<S weer iritante lijnen, maar eerder golven nu
+14u24: M<S ziet er goed uit, maar niet zeker of het hier om scatterers gaat of reflectoren
+mapje: hoort bij plot 17u47 met min: opgeslagen vanuit een 127.0.0.1:X poort
+17u47: 1 keer met en  keer zonder min(-30) in plot (zelfde als 14u24, maar met meer scatterers)
+1/7
+18u45: groot gebied, maar M n voldoende idem als 5/7 3u56, maar slechtere resolutie
+2/7
+3u48: klein gebied, plot met veel antennes, dus leuk... te vgl met plot 16/6 20u18(gespiegels over 1e bissectrice doorplotfout)
+9u20: idem, min=-30
+9u36: groot gebied terug, maar maar weinig antennes
+9u51: idem, min=-30
+5/7
+3u56: idem 1/7, maar betere resolutie. nog altijd veel P naar de scatt, pattern in het midden ziet er normaal uit, lijntje wel ipv cirkels
+9u56: idem, maar met betere Bessel: vanop lvl van UE ipv van op max
+12u32: idem, min=-30, colorscale=ICE geen holio te zien
+12u34: idem, min=-30, nog altijd geen holio te zien
+12u55: idem, max = val v UE
+13u19: idem, gem. val = val v UE, daarrond een trashold v 15dB
+20u25: veel antennas, S>M, ziet er mooi uit
+20u30: idem, maar met LOS dabei. aaaaaaaah, mottig
+20u52: idem 13u19, maar trashold v 30dB
+21u13: idem 20u25, geplot vanuit opgeslagen hdx'en
+21u15: met juiste w, vanuit opgeslagen hdx'en
+21u18: idem, min=-30
+6/7
+18u33: Met LOS, check eens met 8/7 6u35, 1 antenne
+18u34: idem, plot[-1,1]
+18u37: Nekeer kleine getallen vodejol
+7/7
+22u16: start van berekening van model voor gemiddelde van 4 quadranten (midden en 3 quadranten hier)
+22u17: vervolg (laatste quadrant en gemiddelde)
+8/7
+6u35: Dafu, 256 antennes = +/- 1 antenne (6/7 18u33)?  MO: met LOS!
+8u34: idem, plot[-3,0]
+8u55: idem, plot[-1,1] dan is toch wel te zie dat 256 antennes beter afgelijnd staan, maar die antenne staat niet op een bergje!!!!
+18u00: herneming van 5/7 20u30, UE op andere plek, toch wel een ander patroon hier!?
+18u05: idem als 6u35, plot[-3.65,0.7] ter vgl met 18u00. trekt er wel op
+18u07: plot met juiste wH'n van de plots op 7/7
+18u25: gem van 4 quadranten en middelpos. plot[-36,24] ter vgl met plot met juiste gewichten
+23u15: 2 quadranten van middelpos op 5/7 20u25 
+23u16: 2 andere quadranten gem van 4 quadranten en middelpos hier schuift wel alles mooi mee op. (in tegenstelling tot het grotere gebied) MO: bij plot van gemiddelde boeien de polarplots natuurlijk niet)
+23u33 ev: quadranten van plot van 6u35
+23u41: gem van die quadranten en de plot v 6u35
+23u52: juiste wH'n van plot v 6u35
+
+
+ter vgl: 
+5/7 20u25; 20u30: zonder vs met LOS (M=256)
+5/7 3u56; 12u55; 13u19: andere schaal iedere keer
+6/7 18u33; 8/7 6u35: M= 1 vs 256 met LOS
+6/7 18u34; 8/7 8u55: idem, maar op een zelfde schaal gezet
+5/7 20u30; 8/7 18u; 5/7 21u15 (18u05): antenne op andere plaats. 3e toont de area met juiste weights. 2e plot is dan gemaakt met de antenne in een van de ptn die meer pwr krijgen. MO: tweede staat naast de bubbel; 4e is hetz als 2e, maar over groter gebied
+MO: kleine variatie in hele gebied = geen bubbel
