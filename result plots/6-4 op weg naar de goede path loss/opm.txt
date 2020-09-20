@@ -1,0 +1,9 @@
+4/6 14:32: eerste tests met pathloss op juiste plek
+4/6 14:52: idem, meer antennes
+4/6 16:14: idem, andere plaats
+4/6 16:34: idem, andere plaats
+4/6 16:15: surface plot van 16:14 (n genormaliseerd)
+4/6 16:19: poging tot normalisatie surface plot van fig 16:14
+4/6 16:21: poging tot normalisatie surface plot van fig 16:14
+4/6 16:23: poging tot normalisatie surface plot van fig 16:14
+4/6 16:24: poging tot normalisatie surface plot van fig 16:14

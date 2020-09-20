@@ -1,0 +1,15 @@
+15/6 16u35: PL = 1/pad1 * 1/pad2
+15/6 16u37: idem, met max en min
+15/6 16u56: PL = 1/pad1 + 1/pad2
+15/6 16u59: idem, met max en min
+15/6 18u19: PS € [0,1[
+15/6 18u20: idem, met max en min
+15/6 20u13: idem in Surface plot
+15/6 20u14: idem zonder max min
+15/6 18u21: PS € [0,2pi[
+15/6 18u23: idem, met max en min
+15/6 20u15: idem in Surface plot zonder max min
+16/6: groter gebied
+
+
+

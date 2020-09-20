@@ -1,0 +1,37 @@
+Alle resultaten uit mei zijn nog zonder fase shift of path loss en met de oude setup van scatt op min. 100 afstand
+31/5 11u10 is gwn reeel deel v ampl (=klinklare onzin) 
+31/5 11u13 is ampl (niet in dB)
+31/5 11u15 is met min. = 10 dB minder dan max., maar dan niet in dB (=ampl*sqrt(0.1))
+31/5 11u23 = db model van 31/05 11u20  (hier zie je ringetjes nog)
+3/6 13u07: 1e keer geen golfjes na het invoeren van random fase en path loss
+3/6 20u48 & 20u47 (M=128): diagonale lijn in de richting van BS? (ook al gezien bij (ergo: ringetjes verdwijnen met random fase en path loss)
+3/6 21u56 & 21u59: pathloss ingevoerd als gewicht (ter compensatie) (vermenigvuldig); raar dat hier die diagonaal niet op het pad naar BS ligt
+3/6 22u25(ev): idem als 21u56, maar center op andere plaats (LO ipv MB)
+3/6 23u07: met minder precisie, rare lijntjes daar?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
